@@ -1,0 +1,131 @@
+* {
+  border: 2px solid red;
+}
+
+/* margins & padding*/
+
+body {
+  margin: 0;
+}
+
+#header-width {
+  margin: 0 200px;
+}
+
+#main {
+  margin: 0 200px;
+  padding: 0 100px;
+}
+
+#action-width {
+  margin: 0 200px;
+}
+
+.action {
+  padding: 0 100px;
+}
+
+/* nav bar */
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+/* hero section */
+
+.hero-info {
+  display: flex;
+  padding: 48px 0;
+}
+
+.hero-info-text,
+.hero-img {
+  flex: 1;
+}
+
+.hero-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* tiles section */
+
+#tiles-heading {
+  text-align: center;
+}
+
+#all-tiles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tiles {
+  width: 150px;
+  height: 250px;
+  margin-bottom: 96px;
+}
+
+.tiles-img {
+  width: 150px;
+  height: 150px;
+}
+
+.tiles-subtext {
+  margin-top: 0;
+}
+
+/* quote */
+
+#quote-text {
+  margin-left: 12px;
+}
+
+#quote-author {
+  text-align: right;
+  margin-right: 12px;
+}
+
+/* call to action */
+
+.action {
+  display: flex;
+  margin: 24px 0;
+}
+
+.action-text {
+  flex: 2;
+}
+
+#action-button {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-heading {
+  margin-bottom: 0;
+}
+
+.action-text {
+  margin-top: 0;
+}
+
+/* footer */
+
+.footer-text {
+  text-align: center;
+}
