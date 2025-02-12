@@ -4,25 +4,30 @@
 
 /* margins & padding*/
 
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#header-width {
-  margin: 0 200px;
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 
-#main {
-  margin: 0 200px;
-  padding: 0 100px;
+.width-1 {
+  width: 100vw;
 }
 
-#action-width {
-  margin: 0 200px;
+.width-2 {
+  width: 75vw;
+  margin: 0 auto;
 }
 
-.action {
-  padding: 0 100px;
+.width-3 {
+  width: 60vw;
+  margin: 0 auto;
 }
 
 /* nav bar */
@@ -32,9 +37,8 @@ body {
   justify-content: space-between;
 }
 
-.nav-list {
+#nav-list {
   list-style-type: none;
-  padding: 0;
   display: flex;
   gap: 16px;
 }
@@ -50,12 +54,12 @@ body {
   padding: 48px 0;
 }
 
-.hero-info-text,
-.hero-img {
+#hero-info-text,
+#hero-img {
   flex: 1;
 }
 
-.hero-img {
+#hero-img {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,10 +85,6 @@ body {
 .tiles-img {
   width: 150px;
   height: 150px;
-}
-
-.tiles-subtext {
-  margin-top: 0;
 }
 
 /* quote */
@@ -114,14 +114,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.action-heading {
-  margin-bottom: 0;
-}
-
-.action-text {
-  margin-top: 0;
 }
 
 /* footer */
