@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Website</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <div id="header-width">
+    <header class="width-1">
+      <div class="width-2">
         <div class="nav-bar">
           <p id="nav-logo">Header Logo</p>
-          <ul class="nav-list">
+          <ul id="nav-list">
             <li><a class="nav-link" href="">header link one</a></li>
             <li><a class="nav-link" href="">header link two</a></li>
             <li><a class="nav-link" href="">header link three</a></li>
@@ -19,23 +25,23 @@
         </div>
         <div class="hero">
           <div class="hero-info">
-            <div class="hero-info-text">
-              <h1>This website is awesome</h1>
-              <p>
+            <div id="hero-info-text">
+              <h1 id="hero-h1">This website is awesome</h1>
+              <p id="hero-p">
                 This website has some subtext that goes here under the main
                 title. It's a small font and the color is lower contrast.
               </p>
               <a class="button" href="" target="_blank">Sign up</a>
             </div>
-            <div class="hero-img">
-              <p>this is a placeholder for an image</p>
+            <div id="hero-img">
+              <p id="hero-img-text">this is a placeholder for an image</p>
             </div>
           </div>
         </div>
       </div>
     </header>
-    <div id="main">
-      <h2 id="tiles-heading">Some random information.</h2>
+    <div class="width-3">
+      <h2 id="tiles-h2">Some random information.</h2>
       <div id="all-tiles">
         <div class="tiles">
           <div class="tiles-img"></div>
@@ -62,7 +68,9 @@
           </p>
         </div>
       </div>
-      <div id="quote">
+    </div>
+    <div class="width-1" id="quote-background">
+      <div class="width-3">
         <p id="quote-text">
           This is an inspiring quote, or a testimonial from a customer. Maybe
           it's just filling up space, or maybe people will actually read it. Who
@@ -71,22 +79,24 @@
         <p id="quote-author">-Thor, God of Thunder</p>
       </div>
     </div>
-    <div id="action-width">
-      <div class="action">
-        <div class="action-text">
-          <h3 class="action-heading">Call to action! It's time!</h3>
-          <p class="action-text">
-            Sign up for our product by clicking that button right over there!
-          </p>
-        </div>
-        <div id="action-button">
-          <a class="button" href="" target="_blank">Sign up</a>
+    <div class="width-2" id="action-background">
+      <div class="width-3">
+        <div class="action">
+          <div>
+            <h3 id="action-h3">Call to action! It's time!</h3>
+            <p id="action-text">
+              Sign up for our product by clicking that button right over there!
+            </p>
+          </div>
+          <div id="action-button">
+            <a class="button" id="button-bottom" target="_blank">Sign up</a>
+          </div>
         </div>
       </div>
     </div>
 
-    <footer>
-      <p class="footer-text">Copyright &copy; The Odin Project 2021</p>
+    <footer class="width-1">
+      <p id="footer-text">Copyright &copy; The Odin Project 2021</p>
     </footer>
   </body>
 </html>
